@@ -152,27 +152,50 @@ All experiments were conducted in R. The core functions used are listed below:
 \textbf{MM}: function written by the author
 
 \section{Results}
-We show the result of precsion, recall and F-score for different denoising methods in table \ref{tab:results}.
+We show the result of precsion, recall and F-score for different denoising methods in table \ref{tab:results1}.
 \begin{table}[!h]
 \begin{center}
 \begin{tabular}{|c|c|c|c|}
 \hline
 Denoising Methods & Precision & Recall & F-score\\
 \hline
-Non-denoised & 0.84 & 0.84 & 0.0.84  \\
+Non-denoised & 0.84 & 0.84 & 0.84  \\
 \hline
 IRP & 0.90 & 0.81 & 0.85 \\
 \hline
-knn & 0.83 & 0.82 & 0.82 \\
+knn & 0.83(-) & 0.82(-) & 0.82 \\
 \hline
 rasch & 0.66 & 0.69 & 0.67 \\
 \hline
-DINA & 0.85 & 0.84 & 0.84 \\
+DINA & 0.85(-) & 0.84(-) & 0.84(-) \\
 \hline
 \end{tabular}
 \end{center}
-\caption{Results of N=100, k=3, l=10, slip=guess=0.2}\label{tab:results}
+\caption{Results of N=100, k=3, l=10, slip=guess=0.2}\label{tab:results1}
 \end{table}
+
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Denoising Methods & Precision & Recall & F-score\\
+\hline
+Non-denoised & 0.84 & 0.84 & 0.84  \\
+\hline
+IRP & 0.91 & 0.82(-) & 0.86 \\
+\hline
+knn & 0.83(-) & 0.81 & 0.82 \\
+\hline
+rasch & 0.66 & 0.71 & 0.68 \\
+\hline
+DINA & 0.85(-) & 0.84(-) & 0.84(-) \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Results of N=1000, k=3, l=10, slip=guess=0.2}\label{tab:results2}
+\end{table}
+
 
 From the RMSE results, we can see that MM outperforms all other models.
 

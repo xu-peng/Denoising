@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.5)  8 OCT 2018 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.5)  9 OCT 2018 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,16 +193,19 @@ b-served sample[]Murphy,
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 (./Denoising.bbl [6] [7]) [8] (./Denoising.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2034 strings out of 492639
- 28486 string characters out of 6133088
- 101867 words of memory out of 5000000
- 5904 multiletter control sequences out of 15000+600000
+ 2035 strings out of 492639
+ 28501 string characters out of 6133088
+ 101875 words of memory out of 5000000
+ 5905 multiletter control sequences out of 15000+600000
  10599 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,25p,904b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -219,7 +222,7 @@ live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
 ic/rsfs/rsfs10.pfb>
-Output written on Denoising.pdf (8 pages, 178056 bytes).
+Output written on Denoising.pdf (8 pages, 178638 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
