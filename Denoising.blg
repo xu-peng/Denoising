@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Denoising.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: biblio.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 12 entries,
+            6951 wiz_defined-function locations,
+            1349 strings with 12740 characters,
+and the built_in function-call counts, 22348 in all, are:
+= -- 2785
+> -- 185
+< -- 1051
++ -- 1079
+- -- 24
+* -- 1405
+:= -- 4102
+add.period$ -- 50
+call.type$ -- 12
+change.case$ -- 205
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 572
+empty$ -- 894
+format.name$ -- 287
+if$ -- 4282
+int.to.chr$ -- 0
+int.to.str$ -- 36
+missing$ -- 0
+newline$ -- 297
+num.names$ -- 96
+pop$ -- 468
+preamble$ -- 1
+purify$ -- 48
+quote$ -- 0
+skip$ -- 1384
+stack$ -- 0
+substring$ -- 1182
+swap$ -- 350
+text.length$ -- 35
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1024
+warning$ -- 0
+while$ -- 104
+width$ -- 0
+write$ -- 365

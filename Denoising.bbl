@@ -1,0 +1,323 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Bartholomew%
+, Knott%
+\BCBL {}\ \BBA {} Moustaki%
+}{%
+Bartholomew%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+bartholomew2011latent}
+\APACinsertmetastar {%
+bartholomew2011latent}%
+\begin{APACrefauthors}%
+Bartholomew, D\BPBI J.%
+, Knott, M.%
+\BCBL {}\ \BBA {} Moustaki, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {Latent variable models and factor analysis: A unified approach}
+  {Latent variable models and factor analysis: A unified approach}\
+  (\BVOL~904).
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De~La~Torre%
+}{%
+De~La~Torre%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+de2009dina}
+\APACinsertmetastar {%
+de2009dina}%
+\begin{APACrefauthors}%
+De~La~Torre, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {DINA model and parameter estimation: A didactic} {Dina
+  model and parameter estimation: A didactic}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Educational and Behavioral
+  Statistics}{34}{1}{115--130}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Desmarais%
+}{%
+Desmarais%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+desmarais2011performance}
+\APACinsertmetastar {%
+desmarais2011performance}%
+\begin{APACrefauthors}%
+Desmarais, M\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Performance comparison of item-to-item skills models
+  with the IRT single latent trait model} {Performance comparison of
+  item-to-item skills models with the irt single latent trait model}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on User Modeling, Adaptation,
+  and Personalization} {International conference on user modeling, adaptation,
+  and personalization}\ (\BPGS\ 75--86).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DiBello%
+, Roussos%
+\BCBL {}\ \BBA {} Stout%
+}{%
+DiBello%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+dibello200631a}
+\APACinsertmetastar {%
+dibello200631a}%
+\begin{APACrefauthors}%
+DiBello, L\BPBI V.%
+, Roussos, L\BPBI A.%
+\BCBL {}\ \BBA {} Stout, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {31a review of cognitively diagnostic assessment and a
+  summary of psychometric models} {31a review of cognitively diagnostic
+  assessment and a summary of psychometric models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Handbook of statistics}{26}{}{979--1030}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fraley%
+\ \BBA {} Raftery%
+}{%
+Fraley%
+\ \BBA {} Raftery%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+fraley2002model}
+\APACinsertmetastar {%
+fraley2002model}%
+\begin{APACrefauthors}%
+Fraley, C.%
+\BCBT {}\ \BBA {} Raftery, A\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Model-based clustering, discriminant analysis, and
+  density estimation} {Model-based clustering, discriminant analysis, and
+  density estimation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the American statistical
+  Association}{97}{458}{611--631}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Friedman%
+, Hastie%
+\BCBL {}\ \BBA {} Tibshirani%
+}{%
+Friedman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+friedman2001elements}
+\APACinsertmetastar {%
+friedman2001elements}%
+\begin{APACrefauthors}%
+Friedman, J.%
+, Hastie, T.%
+\BCBL {}\ \BBA {} Tibshirani, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2001}.
+\newblock
+\APACrefbtitle {The elements of statistical learning} {The elements of
+  statistical learning}\ (\BVOL~1).
+\newblock
+\APACaddressPublisher{}{Springer series in statistics Springer, Berlin}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hayton%
+, Allen%
+\BCBL {}\ \BBA {} Scarpello%
+}{%
+Hayton%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+hayton2004factor}
+\APACinsertmetastar {%
+hayton2004factor}%
+\begin{APACrefauthors}%
+Hayton, J\BPBI C.%
+, Allen, D\BPBI G.%
+\BCBL {}\ \BBA {} Scarpello, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Factor retention decisions in exploratory factor
+  analysis: A tutorial on parallel analysis} {Factor retention decisions in
+  exploratory factor analysis: A tutorial on parallel analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Organizational research methods}{7}{2}{191--205}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Horn%
+}{%
+Horn%
+}{%
+{\protect \APACyear {1965}}%
+}]{%
+horn1965rationale}
+\APACinsertmetastar {%
+horn1965rationale}%
+\begin{APACrefauthors}%
+Horn, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1965}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A rationale and test for the number of factors in factor
+  analysis} {A rationale and test for the number of factors in factor
+  analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychometrika}{30}{2}{179--185}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Murphy%
+}{%
+Murphy%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+murphy2012machine}
+\APACinsertmetastar {%
+murphy2012machine}%
+\begin{APACrefauthors}%
+Murphy, K\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {Machine learning: a probabilistic perspective} {Machine
+  learning: a probabilistic perspective}.
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Robitzsch%
+, Kiefer%
+, George%
+\BCBL {}\ \BBA {} {\"U}nl{\"u}%
+}{%
+Robitzsch%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+CDM}
+\APACinsertmetastar {%
+CDM}%
+\begin{APACrefauthors}%
+Robitzsch, A.%
+, Kiefer, T.%
+, George, A\BPBI C.%
+\BCBL {}\ \BBA {} {\"U}nl{\"u}, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {CDM: Cognitive Diagnosis Modeling} {Cdm: Cognitive
+  diagnosis modeling}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=CDM}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 5.4-0}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tatsuoka%
+}{%
+Tatsuoka%
+}{%
+{\protect \APACyear {1984}}%
+}]{%
+tatsuoka1984analysis}
+\APACinsertmetastar {%
+tatsuoka1984analysis}%
+\begin{APACrefauthors}%
+Tatsuoka, K\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1984}.
+\newblock
+\APACrefbtitle {Analysis of errors in fraction addition and subtraction
+  problems} {Analysis of errors in fraction addition and subtraction problems}.
+\newblock
+\APACaddressPublisher{}{Computer-based Education Research Laboratory,
+  University of Illinois}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Templin%
+\ \BBA {} Hoffman%
+}{%
+Templin%
+\ \BBA {} Hoffman%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+templin2013obtaining}
+\APACinsertmetastar {%
+templin2013obtaining}%
+\begin{APACrefauthors}%
+Templin, J.%
+\BCBT {}\ \BBA {} Hoffman, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Obtaining diagnostic classification model estimates
+  using Mplus} {Obtaining diagnostic classification model estimates using
+  mplus}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Educational Measurement: Issues and
+  Practice}{32}{2}{37--50}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
