@@ -212,4 +212,25 @@ metrics_dina <- t(sapply(myList, function(m) m["metrics_dina", ]))
 
 
 # hypothesis test
+t.test(metrics_before[,"precision"], metrics_IRP[,"precision"])
+t.test(metrics_before[,"recall"], metrics_IRP[,"recall"])
+t.test(metrics_before[,"f1"], metrics_IRP[,"f1"])
+
+t.test(metrics_before[,"precision"], metrics_knn[,"precision"])
+t.test(metrics_before[,"recall"], metrics_knn[,"recall"])
+t.test(metrics_before[,"f1"], metrics_knn[,"f1"])
+
+t.test(metrics_before[,"precision"], metrics_rasch[,"precision"])
+t.test(metrics_before[,"recall"], metrics_rasch[,"recall"])
+t.test(metrics_before[,"f1"], metrics_rasch[,"f1"])
+
+t.test(metrics_before[,"precision"], metrics_dina[,"precision"])
 t.test(metrics_before[,"recall"], metrics_dina[,"recall"])
+t.test(metrics_before[,"f1"], metrics_dina[,"f1"])
+
+# 1000 students
+metrics_before <- t(sapply(myList_3_1000, function(m) m["metrics_before", ]))
+metrics_IRP <- t(sapply(myList_3_1000, function(m) m["metrics_IRP", ]))
+metrics_knn <- t(sapply(myList_3_1000, function(m) m["metrics_knn", ]))
+metrics_rasch <- t(sapply(myList_3_1000, function(m) m["metrics_rasch", ]))
+metrics_dina <- t(sapply(myList_3_1000, function(m) m["metrics_dina", ]))
