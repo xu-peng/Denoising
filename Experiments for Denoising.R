@@ -161,9 +161,55 @@ getResult <- function(N=100, z=3, slip=0.1, guess=0.1, l=10){
   myList
 }
 
+getDisturbedResult <- function(N=100, z=3, slip=0.1, guess=0.1, l=10, disturbed=1){
+  # N - number of students
+  # z - number of latent skills
+  # slip - slip
+  # guess - guess
+  # l - number of items
+  
+  # Q_init is the first z rows that keeps the DINA model identifiable
+  Q_init <- diag(z)
+  
+  # Get the pool of q-vectors to choose from, remove the no-skill required item
+  Q_vector_candidate <- get_all_combination(z)[-1,]
+  
+  # Get all profile patterns
+  profile_pattern <- get_all_combination(z)
+  
+  # Initate the result list
+  myList <- NULL
+  
+  # k is the index of list component, i.e the times of runs
+  k <- 0
+  for (i in 1:10){
+    
+    # Generate a random index to choose the q-vectors 
+    index <- sample(1:(2^z-1), (l-z), replace = TRUE)
+    for (j in 1:10){
+      k <- k + 1
+      
+      # Generate Q_matrix, P_matrix, R_matrix
+      Q_matrix <- rbind(Q_init, Q_vector_candidate[index,])
+      gen <- sim.din(N=N, q.matrix = Q_matrix, guess=rep(guess, nrow(Q_matrix)), slip = rep(slip, nrow(Q_matrix)))
+      R_matrix <- gen$dat
+      P_matrix <- gen$alpha
+      
+      # Get result for the k-th run
+      availableIndex <- c(1:length(Q_matrix))[Q_matrix==0 | (rep(rowSums(Q_matrix),3)>1) & (Q_matrix==1)]
+      disturbedIndex <- sample(availableIndex,disturbed)
+      Q_matrix[disturbedIndex] <- 1 - Q_matrix[disturbedIndex]
+      myList[[k]] <- one_sweep(R_matrix, Q_matrix, P_matrix, profile_pattern)
+    }
+  }
+  myList
+}
+
+
 # 3-skill case
 
 myList <- getResult(N=1000, z=4, slip=0.3, guess=0.3, l=10)
+myList <- getDisturbedResult(N=100, z=3, slip=0.1, guess=0.1, l=10, disturbed = 1)
 
 # Separate results
 
