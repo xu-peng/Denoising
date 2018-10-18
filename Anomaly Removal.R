@@ -40,13 +40,13 @@ filter_rasch <- function(R_matrix, threshold){
   index <- apply(apply(R_matrix, 1, function(m) colSums(m == t(temp[,1:ncol(R_matrix)]))), 2, which.max)
   Y <- temp[, "z1"][index]
   
-  pred_rasch <- outer(X, Y, function(x, y) 1/(1+exp(-(beta * (y - x)))))
-  before_removal <- t(round(pred_rasch))
+  pred_rasch <- t(outer(X, Y, function(x, y) 1/(1+exp(-(beta * (y - x))))))
+  before_removal <- round(pred_rasch)
   
   # Anomaly Removal
-  index_removal <- (abs(pred_rasch-0.5) < threshold)
+  index_removal <- (abs(pred_rasch-R_matrix) > threshold)
   pred_rasch[index_removal] <- NA
-  after_removal <- t(round(pred_rasch))
+  after_removal <- round(pred_rasch)
   
   # Return result
   list(before_removal = before_removal, after_removal = after_removal)
@@ -81,7 +81,7 @@ filter_DINA <- function(R_matrix, Q_matrix, threshold){
   before_removal <- round(pred)
   
   # Anomaly Removal
-  index_removal <- (abs(pred-0.5) < threshold)
+  index_removal <- (abs(pred-R_matrix) > threshold)
   pred[index_removal] <- NA
   after_removal <- round(pred)
   
@@ -123,7 +123,7 @@ one_sweep <- function(R_matrix, Q_matrix, P_matrix, profile_pattern, threshold){
 }
 
 
-getResult <- function(N=100, z=3, slip=0.1, guess=0.1, l=10, threshold = 0.1){
+getResult <- function(N=100, z=3, slip=0.1, guess=0.1, l=10, threshold = 0.8){
   # N - number of students
   # z - number of latent skills
   # slip - slip
@@ -211,7 +211,7 @@ getDisturbedResult <- function(N=100, z=3, slip=0.1, guess=0.1, l=10, disturbed=
 
 # 3-skill case
 
-myList <- getResult(N=100, z=3, slip=0.1, guess=0.1, l=10, threshold = 0.2)
+myList <- getResult(N=100, z=3, slip=0.2, guess=0.2, l=10, threshold = 0.3)
 myList <- getDisturbedResult(N=100, z=3, slip=0.1, guess=0.1, l=10, disturbed = 1)
 
 # Separate results
